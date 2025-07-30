@@ -19,8 +19,33 @@
   }
 }
 
+@font-face {
+    font-family: 'supply-bold';
+    src: url('./../../public/assets/fonts/Supply-Bold.ttf');
+}
+
+@font-face {
+    font-family: 'supply-light';
+    src: url('./../../public/assets/fonts/Supply-Light.ttf');
+}
+
+@font-face {
+    font-family: 'supply-medium';
+    src: url('./../../public/assets/fonts/Supply-Medium.ttf');
+}
+
+@font-face {
+    font-family: 'supply-regular';
+    src: url('./../../public/assets/fonts/Supply-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'supply-ultralight';
+    src: url('./../../public/assets/fonts/Supply-UltraLight.ttf');
+}
+
 body {
-  background: var(--background);
+  background: gray-;
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
