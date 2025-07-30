@@ -1,6 +1,5 @@
 import React from "react";
 
-
 export default function Button(): JSX.Element {
   return (
     <div className='flex h-15'>

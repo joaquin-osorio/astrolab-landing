@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Hero from '@/components/Hero'
 import YouTubeEmbed from "@/components/YoutubeEmbed";
+import InfoSection from "@/components/InfoSection";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <main className="">
         <Hero/>
         <YouTubeEmbed url="https://www.youtube.com/watch?v=-Tmp2mQ7Wfs"/>
+        <InfoSection/>
       </main>
     </div>
   );
