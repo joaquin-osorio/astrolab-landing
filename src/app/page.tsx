@@ -2,6 +2,8 @@ import Image from "next/image";
 import Hero from '@/components/Hero'
 import YouTubeEmbed from "@/components/YoutubeEmbed";
 import InfoSection from "@/components/InfoSection";
+import { keylab88Specs, keylab49And61Specs } from "@/data/specs";
+import Specifications from "@/components/Specifications";
 
 export default function Home() {
   return (
@@ -18,6 +20,8 @@ export default function Home() {
         <Hero/>
         <YouTubeEmbed url="https://www.youtube.com/watch?v=-Tmp2mQ7Wfs"/>
         <InfoSection/>
+        <Specifications title='Keylab 88 Mk3' specs={keylab88Specs}/>
+        <Specifications title='Keylab 49/61 Mk3' specs={keylab49And61Specs}/>
       </main>
     </div>
   );

@@ -4,7 +4,7 @@ import Button from '@/components/Button'
 
 export default function Hero(): JSX.Element {
     return (
-        <div className='flex w-full pt-20 pb-5'>
+        <div className='flex w-full pt-20 pb-5 mb-20'>
             <div className="w-1/2 relative pl-50">
                 <h1 className='text-black text-5xl py-2 font-[supply-medium] '>_KeyLab 88 Mk3</h1>
                 <h1 className='text-black text-5xl py-2 font-[supply-medium]'>_KeyLab 61 Mk3</h1>
