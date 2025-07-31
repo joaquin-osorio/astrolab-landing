@@ -13,14 +13,14 @@ export default function Gallery({
   links,
 }: GalleryProps): JSX.Element {
   return (
-    <div className="flex w-[80vw] h-full bg-gray-50">
+    <div className="flex flex-col md:flex-row w-full md:w-[80vw] h-full bg-gray-50 gap-4">
         {images.map((src,i) => {
           console.log(images[i])
           return(
-            <a key={i} href={links[i]} className="h-full w-1/3" target="_blank">
+            <a key={i} href={links[i]} className="h-full w-full md:w-1/3" target="_blank">
               <div className="">
                 <div className=" relative w-full h-64 transform scale-100 transition-transform duration-500 ease-out hover:scale-110">
-                  <Image 
+                  <Image
                     src={images[i]}
                     alt={titles[i]}
                     fill

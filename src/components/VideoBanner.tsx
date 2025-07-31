@@ -8,7 +8,7 @@ export interface VideoBannerProps {
 
 export default function VideoBanner({
   src,
-  heightClass = "h-96",
+  heightClass = "h-64 md:h-96",
   poster,
 }: VideoBannerProps): JSX.Element {
   return (

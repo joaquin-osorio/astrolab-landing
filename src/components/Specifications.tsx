@@ -17,47 +17,42 @@ export default function Specifications({
 
   return (
     <section className="w-screen overflow-hidden py-10">
-      <div className="flex flex-wrap pl-10">
-        {/* 1/3 Left */}
-        <div className="w-full md:w-1/3 px-4 mb-8 md:mb-0 flex flex-col justify-start">
-          <h1 className="text-black text-5xl py-2 font-[supply-medium]">
+      {/* wrapper: columna en mobile, fila en md, con gaps y padding centralizado */}
+      <div className="flex flex-col md:flex-row gap-y-8 md:gap-y-0 md:gap-x-6 px-4 md:px-10">
+        {/* Left */}
+        <div className="w-full md:w-1/3">
+          <h1 className="text-black text-4xl py-2 font-[supply-medium]">
             _Características
           </h1>
-          <h2 className="text-black text-5xl py-2 font-[supply-light]">
+          <h2 className="text-black text-4xl py-2 font-[supply-light]">
             {title}
           </h2>
         </div>
 
-        {/* 1/3 Center */}
-        <div className="w-full md:w-1/3 px-4 mb-8 md:mb-0 ">
-          <h3 className="font-mono font-bold mb-2 text-black">
+        {/* Center */}
+        <div className="w-full md:w-1/3">
+          <h3 className="text-lg md:text-xl font-mono font-bold mb-2 text-black">
             Características
           </h3>
-          <ul className="list-disc list-inside space-y-1 text-lg">
+          <ul className="list-disc list-inside space-y-1 text-base md:text-lg">
             {caracteristicas.map((item, i) => (
-              <li
-                key={i}
-                className="text-black text-base font-[supply-light]"
-              >
+              <li key={i} className="text-black font-[supply-light]">
                 {item}
               </li>
             ))}
           </ul>
         </div>
 
-        {/* 1/3 right */}
-        <div className="w-full md:w-1/3 px-4">
+        {/* Right */}
+        <div className="w-full md:w-1/3 space-y-6">
           {otherSections.map(([heading, items]) => (
-            <div key={heading} className="mb-6 px-10">
-              <h3 className="font-mono font-bold mb-2 text-black">
+            <div key={heading}>
+              <h3 className="text-lg md:text-xl font-mono font-bold mb-2 text-black">
                 {heading}
               </h3>
-              <ul className="list-disc list-inside space-y-1 text-lg">
+              <ul className="list-disc list-inside space-y-1 text-base md:text-lg">
                 {items.map((item, j) => (
-                  <li
-                    key={j}
-                    className="text-black text-base font-[supply-light]"
-                  >
+                  <li key={j} className="text-black font-[supply-light]">
                     {item}
                   </li>
                 ))}

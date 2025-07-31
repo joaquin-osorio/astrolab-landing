@@ -4,11 +4,11 @@ import Image from "next/image";
 
 export default function InfoSection(): JSX.Element {
     return (
-        <div className='flex w-full h-[100vh]'>
-            <div className="w-1/2 flex  flex-col py-10 px-32">
+        <div className='flex flex-col md:flex-row w-full h-auto md:h-[100vh]'>
+            <div className="w-full md:w-1/2 flex flex-col py-10 px-6 md:px-32">
                 {/* Acá va el texto */}
-                <h1 className="text-black text-5xl py-1 font-[supply-medium]">_Claves Premium</h1>
-                <h3 className="text-black text-5xl py-1 mb-5     font-[supply-light]">Para creativos modernos</h3>
+                <h1 className="text-black text-4xl py-1 font-[supply-medium]">_Claves Premium</h1>
+                <h3 className="text-black text-4xl py-1 mb-5     font-[supply-light]">Para creativos modernos</h3>
                 <div className='text-black text-md py-2 font-[supply-light]'>
                     Con un teclado de acción de martillo de tamaño completo con aftertouch e integración de software perfecta, revestido de materiales robustos de alta calidad y un sofisticado panel de madera, el KeyLab 88 no solo tiene un aspecto profesional sino que también durará mucho tiempo tanto en el escenario como en el estudio.
                 </div>
@@ -28,7 +28,7 @@ export default function InfoSection(): JSX.Element {
                     Desde configuraciones MIDI personalizables y controles intuitivos hasta funciones creativas avanzadas que ayudan a la ideación musical, KeyLab es un poderoso aliado tanto en el estudio como en el escenario.
                 </div>
             </div>
-            <div className="w-1/2 relative">
+            <div className="w-full md:w-1/2 relative h-72 md:h-auto">
                 <Image
                     src="/assets/keylab-playing.jpg"
                     alt="Gallery"

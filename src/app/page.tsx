@@ -27,17 +27,17 @@ export default function Home() {
         <Hero />
         <YouTubeEmbed url="https://www.youtube.com/watch?v=-Tmp2mQ7Wfs" />
         <InfoSection />
-        <VideoBanner src="/assets/render-loop.mp4" heightClass="h-[500px]" />
+        <VideoBanner src="/assets/render-loop.mp4" heightClass="h-64 md:h-[500px]" />
         <Specifications title='Keylab 88 Mk3' specs={keylab88Specs} />
         <Specifications title='Keylab 49/61 Mk3' specs={keylab49And61Specs} />
-        <div className="w-full h-96 flex justify-center my-20">
+        <div className="w-full h-auto md:h-96 flex justify-center my-20">
           <Gallery
             images={['/assets/49_Mk3-no-bg.png', '/assets/61_Mk3-no-bg.png', '/assets/88_Mk3-no-bg.png']}
             titles={['Keylab 49 Mk3', 'Keylab 61 Mk3', 'Keylab 88 Mk3']}
             links={['https://www.pcmidi.com.ar/search/?q=keylab49mk3', 'https://www.pcmidi.com.ar/search/?q=keylab61mk3#', 'https://www.pcmidi.com.ar/search/?q=keylab88mk3']}
           />
         </div>
-        <div className='w-full h-[40rem] relative overflow-hidden'>
+        <div className='w-full h-64 md:h-[40rem] relative overflow-hidden'>
           <Image
             src="/assets/keylab-closeup.jpg"
             alt="Banner principal"
@@ -48,7 +48,7 @@ export default function Home() {
         </div>
       </main>
       <footer className="w-full h-32 bg-black text-gray-50 flex items-center justify-center">
-        <div className="text-center text-md font-[supply-light]">
+        <div className="text-center text-xs md:text-base font-[supply-light]">
           PC Midi Center distribuidor oficial de Arturia en Argentina
         </div>
       </footer>
