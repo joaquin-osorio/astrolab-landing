@@ -30,7 +30,7 @@ export default function Home() {
           <Gallery 
             images={['/assets/49_Mk3-no-bg.png','/assets/61_Mk3-no-bg.png','/assets/88_Mk3-no-bg.png']}
             titles={['Keylab 49 Mk3', 'Keylab 61 Mk3', 'Keylab 88 Mk3']}
-            links={['#','#','#']}
+            links={['https://www.pcmidi.com.ar/search/?q=keylab49mk3','https://www.pcmidi.com.ar/search/?q=keylab61mk3#','https://www.pcmidi.com.ar/search/?q=keylab88mk3']}
           />
         </div>
             <div className='w-full h-[40rem] relative overflow-hidden'>

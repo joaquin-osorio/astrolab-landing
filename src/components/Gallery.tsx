@@ -17,7 +17,7 @@ export default function Gallery({
         {images.map((src,i) => {
           console.log(images[i])
           return(
-            <a key={i} href={links[i]} className="h-full w-1/3">
+            <a key={i} href={links[i]} className="h-full w-1/3" target="_blank">
               <div className="">
                 <div className=" relative w-full h-64 transform scale-100 transition-transform duration-500 ease-out hover:scale-110">
                   <Image 
