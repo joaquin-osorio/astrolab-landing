@@ -30,7 +30,9 @@ export default function Home() {
         <VideoBanner src="/assets/render-loop.mp4" heightClass="h-64 md:h-[500px]" />
         <Specifications title='Keylab 88 Mk3' specs={keylab88Specs} />
         <Specifications title='Keylab 49/61 Mk3' specs={keylab49And61Specs} />
-        <div className="w-full h-auto md:h-96 flex justify-center my-20">
+        <div className="w-full h-auto md:h-96 flex justify-center my-20 flex flex-col items-left md:items-center px-3">
+          <p className="text-base md:text-xl font-mono font-medium mb-1 text-black">¿Querés saber más detalles?</p>
+          <p className="text-base md:text-xl font-mono font-medium mb-6 text-black">Hacé click en algún modelo para saber más</p>
           <Gallery
             images={['/assets/49_Mk3-no-bg.png', '/assets/61_Mk3-no-bg.png', '/assets/88_Mk3-no-bg.png']}
             titles={['Keylab 49 Mk3', 'Keylab 61 Mk3', 'Keylab 88 Mk3']}
