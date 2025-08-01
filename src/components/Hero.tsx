@@ -9,7 +9,7 @@ export default function Hero() {
                 <h1 className='text-black text-4xl md:text-5xl py-2 font-[supply-medium] '>_KeyLab 88 Mk3</h1>
                 <h1 className='text-black text-4xl md:text-5xl py-2 font-[supply-medium]'>_KeyLab 61 Mk3</h1>
                 <h1 className='text-black text-4xl md:text-5xl py-2 font-[supply-medium]'>_KeyLab 49 Mk3</h1>
-                <h3 className='text-black text-4xl md:text-5xl py-2 font-[supply-light]'>Controladores Midi universales</h3>
+                <h3 className='text-black text-4xl md:text-5xl py-2 font-[supply-light]'>Controladores MIDI universales</h3>
                 <div className='text-black text-md py-5 font-[supply-light]'>
                     El KeyLab mk3 es un controlador MIDI avanzado que cumple con todos los requisitos para uso profesional y se integra a la perfección con instrumentos de software y hardware. Con un teclado semicontrapesado, controles táctiles y funciones creativas innovadoras, todo está integrado en un chasis robusto y de alta calidad: descubre un teclado en el que puedes confiar en cualquier situación.
 
