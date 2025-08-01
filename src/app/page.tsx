@@ -49,7 +49,7 @@ export default function Home() {
       </main>
       <footer className="w-full h-32 bg-black text-gray-50 flex items-center justify-center">
         <div className="text-center text-xs md:text-base font-[supply-light]">
-          PC Midi Center distribuidor oficial de Arturia en Argentina
+          PC MIDI Center distribuidor oficial de Arturia en Argentina
         </div>
       </footer>
     </div>

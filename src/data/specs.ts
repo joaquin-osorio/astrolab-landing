@@ -20,13 +20,13 @@ export const keylab88Specs = {
     "15,7 kilogramos"
   ],
   "Software incluido": [
-    "Laboratorio analógico Pro",
+    "Analog Lab Pro",
     "Mini V",
     "Piano V",
     "Cuerdas aumentadas",
-    "Rev. PLACA‑140",
+    "Rev. PLATE-140",
     "Ableton Live Lite",
-    "NI El caballero",
+    "NI The Gentleman",
     "Loopcloud y Melodics",
     "Paquete Native Instruments Komplete 15 Select de tu elección (Select Beats, Select Band o Select Electronic)"
   ]
@@ -57,7 +57,7 @@ export const keylab49And61Specs = {
     "6,1 kg (KeyLab 49 mk3)"
   ],
   "Software incluido": [
-    "Laboratorio analógico V",
+    "Analog Lab V",
     "Ableton Live Lite",
     "Modelo UVI D",
     "Pianos The Gentleman de Native Instruments",

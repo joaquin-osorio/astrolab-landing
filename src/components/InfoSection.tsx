@@ -9,7 +9,7 @@ export default function InfoSection(): JSX.Element {
         {/* Texto */}
         <div className="w-full md:w-1/2 flex flex-col gap-4 py-10 px-6 md:px-32">
           <h1 className="text-black text-4xl font-[supply-medium]">
-            _Claves Premium
+            _Teclas Premium
           </h1>
           <h3 className="text-black text-4xl font-[supply-light]">
             Para creativos modernos

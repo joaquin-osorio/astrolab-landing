@@ -15,7 +15,6 @@ export default function Gallery({
   return (
     <div className="flex flex-col md:flex-row w-full md:w-[80vw] h-full bg-gray-50 gap-4">
         {images.map((src,i) => {
-          console.log(images[i])
           return(
             <a key={i} href={links[i]} className="h-full w-full md:w-1/3" target="_blank">
               <div className="">
