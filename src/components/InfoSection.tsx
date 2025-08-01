@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 
 
-export default function InfoSection(): JSX.Element {
+export default function InfoSection() {
   return (
     <section className="w-full overflow-visible py-0">
       <div className="flex flex-col md:flex-row md:px-0 gap-8 md:gap-0">

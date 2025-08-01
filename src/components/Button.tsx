@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function Button(): JSX.Element {
+export default function Button() {
   return (
     <a className='flex h-15' href="https://www.pcmidi.com.ar/search/?q=landingkeylab" target="_blank">
         <div className="bg-black w-3"></div>

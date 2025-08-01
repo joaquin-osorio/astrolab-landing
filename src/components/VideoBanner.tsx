@@ -10,7 +10,7 @@ export default function VideoBanner({
   src,
   heightClass = "h-64 md:h-96",
   poster,
-}: VideoBannerProps): JSX.Element {
+}: VideoBannerProps) {
   return (
     <div className={`w-full overflow-hidden relative ${heightClass}`}>
       <video

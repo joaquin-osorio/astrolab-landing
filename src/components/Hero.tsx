@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 import Button from '@/components/Button'
 
-export default function Hero(): JSX.Element {
+export default function Hero() {
     return (
         <div className='flex flex-col md:flex-row w-full pt-20 pb-5 mb-20'>
             <div className="order-2 md:order-1 w-full md:w-1/2 relative md:pl-12 px-4">

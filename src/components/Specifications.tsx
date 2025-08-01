@@ -9,7 +9,7 @@ export interface SpecificationsProps {
 export default function Specifications({
   title,
   specs,
-}: SpecificationsProps): JSX.Element {
+}: SpecificationsProps) {
   const caracteristicas = specs["Características"] || [];
   const otherSections = Object.entries(specs).filter(
     ([key]) => key !== "Características"

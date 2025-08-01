@@ -4,7 +4,7 @@ interface YouTubeEmbedProps {
   url: string;
 }
 
-export default function YouTubeEmbed({ url }: YouTubeEmbedProps): JSX.Element {
+export default function YouTubeEmbed({ url }: YouTubeEmbedProps) {
   // Extrae el videoId de la URL (funciona con URLs estándar y con parámetros)
   const videoId = useMemo(() => {
     const match = url.match(

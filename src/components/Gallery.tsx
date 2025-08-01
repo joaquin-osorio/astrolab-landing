@@ -11,7 +11,7 @@ export default function Gallery({
   images,
   titles,
   links,
-}: GalleryProps): JSX.Element {
+}: GalleryProps) {
   return (
     <div className="flex flex-col md:flex-row w-full md:w-[80vw] h-full bg-gray-50 gap-4">
         {images.map((src,i) => {
