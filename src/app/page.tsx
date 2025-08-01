@@ -34,7 +34,7 @@ export default function Home() {
           <p className="text-base md:text-xl font-mono font-medium mb-1 text-black">¿Querés saber más detalles?</p>
           <p className="text-base md:text-xl font-mono font-medium mb-6 text-black">Hacé click en algún modelo para saber más</p>
           <Gallery
-            images={['/assets/49_Mk3-no-bg.png', '/assets/61_Mk3-no-bg.png', '/assets/88_Mk3-no-bg.png']}
+            images={['/assets/49_Mk3-no-bg.png', '/assets/61_mk3-no-bg.png', '/assets/88_mk3-no-bg.png']}
             titles={['Keylab 49 Mk3', 'Keylab 61 Mk3', 'Keylab 88 Mk3']}
             links={['https://www.pcmidi.com.ar/search/?q=keylab49mk3', 'https://www.pcmidi.com.ar/search/?q=keylab61mk3#', 'https://www.pcmidi.com.ar/search/?q=keylab88mk3']}
           />
