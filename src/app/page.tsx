@@ -15,7 +15,7 @@ export default function Home() {
       <Head>
         <link rel="icon" href="/favicon.ico" />
       </Head> 
-      <header className="relative w-full h-30 bg-white">
+      <header className="relative w-full h-30 bg-white flex justify-center items-center">
         <Image
           src="/assets/arturia-logo.svg"
           alt="Banner principal"
@@ -27,21 +27,21 @@ export default function Home() {
         <Hero />
         <YouTubeEmbed url="https://www.youtube.com/watch?v=-Tmp2mQ7Wfs" />
         <InfoSection />
-        <VideoBanner src="/assets/render-loop.mp4" heightClass="h-64 md:h-[500px]" />
+        {/* <VideoBanner src="/assets/render-loop.mp4" heightClass="h-64 md:h-[500px]" /> */}
         <Specifications title='Keylab 88 Mk3' specs={keylab88Specs} />
         <Specifications title='Keylab 49/61 Mk3' specs={keylab49And61Specs} />
         <div className="w-full h-auto md:h-96 flex justify-center my-20 flex flex-col items-left md:items-center px-3">
           <p className="text-base md:text-xl font-mono font-medium mb-1 text-black">¿Querés saber más detalles?</p>
           <p className="text-base md:text-xl font-mono font-medium mb-6 text-black">Hacé click en algún modelo para saber más</p>
           <Gallery
-            images={['/assets/49_Mk3-no-bg.png', '/assets/61_mk3-no-bg.png', '/assets/88_mk3-no-bg.png']}
-            titles={['Keylab 49 Mk3', 'Keylab 61 Mk3', 'Keylab 88 Mk3']}
+            images={['/assets/optimized/49_Mk3-no-bg.webp', '/assets/optimized/61_mk3-no-bg.webp', '/assets/optimized/88_mk3-no-bg.webp']}
+            titles={['Keylab 49 Mk3', 'Keylab 61 Mk3', 'Keylab 88 Mk3']}  
             links={['https://www.pcmidi.com.ar/search/?q=keylab49mk3', 'https://www.pcmidi.com.ar/search/?q=keylab61mk3#', 'https://www.pcmidi.com.ar/search/?q=keylab88mk3']}
           />
         </div>
         <div className='w-full h-64 md:h-[40rem] relative overflow-hidden'>
           <Image
-            src="/assets/keylab-closeup.jpg"
+            src="/assets/optimized/keylab-closeup.webp"
             alt="Banner principal"
             fill
             className='object-cover'

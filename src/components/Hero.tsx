@@ -21,7 +21,7 @@ export default function Hero() {
             </div>
             <div className='order-1 md:order-2 w-full md:w-1/2 relative overflow-hidden h-72 md:h-auto'>
                 <Image
-                    src="/assets/keylab-collage.png"
+                    src="/assets/optimized/keylab-collage.webp"
                     alt="Banner principal"
                     fill
                     className='object-contain md:object-right object-center transform translate-x-5 transition-transform duration-500 ease-out hover:translate-x-0'

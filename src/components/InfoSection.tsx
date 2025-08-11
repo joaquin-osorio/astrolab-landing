@@ -63,7 +63,7 @@ export default function InfoSection() {
         {/* Imagen */}
         <div className="w-full md:w-1/2 relative min-h-[200px] md:min-h-screen">
           <Image
-            src="/assets/keylab-playing.jpg"
+            src="/assets/optimized/keylab-playing.webp"
             alt="KeyLab tocando"
             fill
             className="object-cover"
