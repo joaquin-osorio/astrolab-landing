@@ -14,8 +14,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Arturia | Keylab Mk3",
-  description: "Keylab Mk3",
+  title: "Arturia | KeyLab Mk3",
+  description: "KeyLab Mk3",
   viewport: "width=device-width, initial-scale=1",
 };
 
