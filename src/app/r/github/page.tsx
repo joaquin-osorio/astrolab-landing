@@ -1,4 +1,3 @@
-// src/app/r/github/page.tsx
 "use client";
 
 import { useEffect } from "react";
@@ -17,3 +16,4 @@ export default function RedirectGithub() {
     </main>
   );
 }
+
