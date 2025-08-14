@@ -14,7 +14,7 @@ export default function Home() {
     <div className="bg-gray-100 min-h-screen overflow-x-hidden">
       <Head>
         <link rel="icon" href="/favicon.ico" />
-      </Head> 
+      </Head>
       <header className="relative w-full h-30 bg-white flex justify-center items-center">
         <Image
           src="/assets/arturia-logo.svg"
@@ -35,7 +35,7 @@ export default function Home() {
           <p className="text-base md:text-xl font-mono font-medium mb-6 text-black">Hacé click en algún modelo para saber más</p>
           <Gallery
             images={['/assets/optimized/49_Mk3-no-bg.webp', '/assets/optimized/61_mk3-no-bg.webp', '/assets/optimized/88_mk3-no-bg.webp']}
-            titles={['KeyLab 49 Mk3', 'KeyLab 61 Mk3', 'KeyLab 88 Mk3']}  
+            titles={['KeyLab 49 Mk3', 'KeyLab 61 Mk3', 'KeyLab 88 Mk3']}
             links={['https://www.pcmidi.com.ar/search/?q=keylab49mk3', 'https://www.pcmidi.com.ar/search/?q=keylab61mk3#', 'https://www.pcmidi.com.ar/search/?q=keylab88mk3']}
           />
         </div>
@@ -49,9 +49,17 @@ export default function Home() {
           />
         </div>
       </main>
-      <footer className="w-full h-32 bg-black text-gray-50 flex items-center justify-center">
-        <div className="text-center text-xs md:text-base font-[supply-light]">
+      <footer className="w-full h-32 bg-black text-gray-50 flex flex-col items-center justify-center gap-y-2">
+        <div className="text-center text-[0.7rem] md:text-base font-[supply-light]">
           PC MIDI Center distribuidor oficial de Arturia en Argentina
+        </div>
+        <div className="text-center text-[0.6rem] md:text-base font-[supply-light]">
+          Made with ❤️ by ✨<a
+            href="/r/github"
+            className="underline"
+          >
+            Joaquín
+          </a>✨
         </div>
       </footer>
     </div>
