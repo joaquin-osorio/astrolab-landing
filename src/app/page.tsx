@@ -10,6 +10,7 @@ import Head from "next/head";
 import KnobsSection from "@/components/KnobsSection";
 import SoundsSection from "@/components/SoundsSection";
 import FeaturesSection from "@/components/FeaturesSection";
+import Button from "@/components/Button";
 
 
 export default function Home() {
@@ -34,7 +35,7 @@ export default function Home() {
 
         <div className='w-full h-64 md:h-[60rem] relative overflow-hidden'>
           <Image
-            src="/assets/Astrolab-demo.jpg"
+            src="/assets/Astrolab-playing.webp"
             alt="Banner principal"
             fill
             className='object-cover'
@@ -42,7 +43,7 @@ export default function Home() {
           />
         </div>
         <SoundsSection />
-                <div className='w-full h-64 md:h-[60rem] relative overflow-hidden'>
+        <div className='w-full h-64 md:h-[60rem] relative overflow-hidden'>
           <Image
             src="/assets/astrolab-detail.jpg"
             alt="Banner principal"
@@ -52,6 +53,10 @@ export default function Home() {
           />
         </div>
         <FeaturesSection />
+        <div className="w-full flex flex-row justify-center items-center my-5">
+          <Button />
+
+        </div>
         <div className='w-full h-64 md:h-[60rem] relative overflow-hidden'>
           <Image
             src="/assets/astrolab-in-space.webp"
@@ -61,7 +66,8 @@ export default function Home() {
             quality={100}
           />
         </div>
-        
+
+
         {/* <Specifications title='KeyLab 88 Mk3' specs={keylab88Specs} />
         <Specifications title='KeyLab 49/61 Mk3' specs={keylab49And61Specs} />
         <div className="w-full h-auto md:h-96 flex justify-center my-20 flex flex-col items-left md:items-center px-3">
