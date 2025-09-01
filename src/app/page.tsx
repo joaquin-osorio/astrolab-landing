@@ -35,7 +35,7 @@ export default function Home() {
 
         <div className='w-full h-64 md:h-[60rem] relative overflow-hidden'>
           <Image
-            src="/assets/Astrolab-playing.webp"
+            src="/assets/astrolab-playing.webp"
             alt="Banner principal"
             fill
             className='object-cover'
