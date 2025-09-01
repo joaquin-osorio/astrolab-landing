@@ -5,7 +5,7 @@ import { useEffect } from "react";
 export default function RedirectGithub() {
   useEffect(() => {
     const timeout = setTimeout(() => {
-      window.location.href = "https://github.com/joaquin-osorio/keylab-landing";
+      window.location.href = "https://github.com/joaquin-osorio/astrolab-landing";
     }, 200); // 200ms para que Analytics registre el pageview
     return () => clearTimeout(timeout);
   }, []);

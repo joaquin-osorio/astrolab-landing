@@ -7,6 +7,9 @@ import Specifications from "@/components/Specifications";
 import VideoBanner from "@/components/VideoBanner";
 import Gallery from "@/components/Gallery"
 import Head from "next/head";
+import KnobsSection from "@/components/KnobsSection";
+import SoundsSection from "@/components/SoundsSection";
+import FeaturesSection from "@/components/FeaturesSection";
 
 
 export default function Home() {
@@ -25,10 +28,41 @@ export default function Home() {
       </header>
       <main className="">
         <Hero />
-        <YouTubeEmbed url="https://www.youtube.com/watch?v=-Tmp2mQ7Wfs" />
+        <YouTubeEmbed url="https://www.youtube.com/watch?v=w7WfcjNWcH4" />
         <InfoSection />
-        {/* <VideoBanner src="/assets/render-loop.mp4" heightClass="h-64 md:h-[500px]" /> */}
-        <Specifications title='KeyLab 88 Mk3' specs={keylab88Specs} />
+        <KnobsSection />
+
+        <div className='w-full h-64 md:h-[60rem] relative overflow-hidden'>
+          <Image
+            src="/assets/Astrolab-demo.jpg"
+            alt="Banner principal"
+            fill
+            className='object-cover'
+            quality={100}
+          />
+        </div>
+        <SoundsSection />
+                <div className='w-full h-64 md:h-[60rem] relative overflow-hidden'>
+          <Image
+            src="/assets/astrolab-detail.jpg"
+            alt="Banner principal"
+            fill
+            className='object-cover'
+            quality={100}
+          />
+        </div>
+        <FeaturesSection />
+        <div className='w-full h-64 md:h-[60rem] relative overflow-hidden'>
+          <Image
+            src="/assets/astrolab-in-space.jpg"
+            alt="Banner principal"
+            fill
+            className='object-cover'
+            quality={100}
+          />
+        </div>
+        
+        {/* <Specifications title='KeyLab 88 Mk3' specs={keylab88Specs} />
         <Specifications title='KeyLab 49/61 Mk3' specs={keylab49And61Specs} />
         <div className="w-full h-auto md:h-96 flex justify-center my-20 flex flex-col items-left md:items-center px-3">
           <p className="text-base md:text-xl font-mono font-medium mb-1 text-black">¿Querés saber más detalles?</p>
@@ -47,7 +81,7 @@ export default function Home() {
             className='object-cover'
             quality={100}
           />
-        </div>
+        </div> */}
       </main>
       <footer className="w-full h-32 bg-black text-gray-50 flex flex-col items-center justify-center gap-y-2">
         <div className="text-center text-[0.7rem] md:text-base font-[supply-light]">

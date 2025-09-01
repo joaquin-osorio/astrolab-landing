@@ -9,61 +9,50 @@ export default function InfoSection() {
         {/* Texto */}
         <div className="w-full md:w-1/2 flex flex-col gap-4 py-10 px-6 md:px-32">
           <h1 className="text-black text-4xl font-[supply-medium]">
-            _Teclas Premium
+            _Ve mas allá
           </h1>
           <h3 className="text-black text-4xl font-[supply-light]">
-            Para creativos modernos
+            Redefinición del teclado de alto rendimiento
           </h3>
           <p className="text-black text-base font-[supply-light]">
-            Con un teclado de acción de martillo de tamaño completo con
-            aftertouch e integración de software perfecta, revestido de
-            materiales robustos de alta calidad y un sofisticado panel de
-            madera, el KeyLab 88 no solo tiene un aspecto profesional sino que
-            también durará mucho tiempo tanto en el escenario como en el
-            estudio.
+            AstroLab 88 es un instrumento construido para la era moderna y diseñado para músicos y productores que buscan más libertad creativa. Con su teclado Fatar TP-40L contrapesado de alta calidad, captura cada matiz de tu interpretación, brindándote una experiencia altamente expresiva y sensible, además de más espacio para configuraciones de teclado dividido.
           </p>
           <p className="text-black text-base font-[supply-light]">
-            Con una impresionante pantalla visual que ofrece información
-            contextual en tiempo real, controles sensibles a la presión y
-            funciones innovadoras, el proceso de producción musical alcanza un
-            nuevo nivel. La integración perfecta con Analog Lab Pro y los
-            principales DAW, así como el soporte inteligente para la ideación
-            musical, permiten un control sin precedentes sobre toda la
-            configuración.
+            Con síntesis virtual avanzada incorporada junto con un ecosistema innovador y controles esenciales que te permiten centrarte en tocar, AstroLab 88 tiende un puente entre la producción de estudio, la interpretación en directo y la expresión creativa sin trabas.
           </p>
+          <p className="text-black text-base font-[supply-light]">
+            Con más de 1600 presets diseñados específicamente para el escenario, y la capacidad de integrar una gama casi infinita de sonidos personalizados, AstroLab 88 te permite pasar sin problemas entre auténticos pianos, icónicos timbres de teclado vintage y texturas de sintetizador modernas.
+          </p>
+          <p className="text-black text-base font-[supply-light]">
+            Con AstroLab, lleva tus sonidos de interpretación más allá de los samples, tu setup de escenario más allá de la complicación y tus creaciones de estudio más allá de los confines de tu DAW.
+          </p>
+
           <h6 className="text-black text-base font-[supply-bold]">
-            Integración Profunda
+            Completo control creativo
           </h6>
           <p className="text-black text-base font-[supply-light]">
-            KeyLab ofrece conectividad avanzada con todos los DAW principales,
-            incluidos los protocolos MCU/HUI, lo que le permite ver información
-            contextual en pantalla, crear programas de usuario y tener control
-            total sobre su software e instrumentos de producción musical.
+            AstroLab es un instrumento autónomo
+            que facilita más que nunca la
+            interpretación de todos tus sonidos
+            característicos sin necesidad de
+            ordenador.
           </p>
-          <h6 className="text-black text-base font-[supply-bold]">
-            Facilidad de uso y calidad de construcción superiores:
-          </h6>
           <p className="text-black text-base font-[supply-light]">
-            El KeyLab combina un diseño excelente y un teclado de acción de
-            martillo con componentes de madera y aluminio de alta calidad. Su
-            robusta construcción garantiza fiabilidad y durabilidad,
-            satisfaciendo las necesidades del uso profesional.
-          </p>
-          <h6 className="text-black text-base font-[supply-bold]">
-            Completamente equipados
-          </h6>
-          <p className="text-black text-base font-[supply-light]">
-            Desde configuraciones MIDI personalizables y controles intuitivos
-            hasta funciones creativas avanzadas que ayudan a la ideación
-            musical, KeyLab es un poderoso aliado tanto en el estudio como en
-            el escenario.
+            Edita un sonido en profundidad en
+            Analog Lab, utilízalo para la
+            producción en tu DAW, arrástralo
+            a la biblioteca AstroLab a través
+            de Analog Lab, asigna efectos
+            personalizados y dispón de todos
+            los sonidos y ajustes que
+            necesites cuando actúes.
           </p>
         </div>
 
         {/* Imagen */}
         <div className="w-full md:w-1/2 relative min-h-[200px] md:min-h-screen">
-          <Image
-            src="/assets/optimized/keylab-playing.webp"
+          <Image  
+            src="/assets/astrolab-playing.jpg"
             alt="KeyLab tocando"
             fill
             className="object-cover"
