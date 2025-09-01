@@ -54,7 +54,7 @@ export default function Home() {
         <FeaturesSection />
         <div className='w-full h-64 md:h-[60rem] relative overflow-hidden'>
           <Image
-            src="/assets/astrolab-in-space.jpg"
+            src="/assets/astrolab-in-space.webp"
             alt="Banner principal"
             fill
             className='object-cover'
