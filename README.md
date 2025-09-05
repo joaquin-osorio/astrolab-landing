@@ -1,6 +1,6 @@
-# KeyLab Mk3 Landing Page
+# Astrolab 88 Landing Page
 
-This repository contains the official marketing website for the Arturia **KeyLab Mk3** MIDI controllers, developed specifically for **Arturia Argentina**. It is built with the latest version of [Next.js](https://nextjs.org), **TypeScript**, and **Tailwind CSS**.
+This repository contains the official marketing website for the Arturia **Astrolab 88**, developed specifically for **Arturia Argentina**. It is built with the latest version of [Next.js](https://nextjs.org), **TypeScript**, and **Tailwind CSS**.
 
 The site is composed of reusable React components and includes dynamic sections for product specifications and an image gallery. The design uses custom Supply fonts and a responsive layout to ensure a seamless experience on both desktop and mobile browsers.  
 It also integrates **Vercel Analytics** to monitor performance and user interaction.
